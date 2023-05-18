@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    background: #7e7b7b;
+    color: white;
+    width: 163px;
+    height: 100vh;
+}
+
+.sidebar nav {
+    padding: 30px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 20px;
+    padding: 25px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar nav li a:hover {
+    background: white;
+    color:  #f10808;
+    padding: 3px 14px;
+    border-radius: 22px;
+    margin: 20px 3px;
+}
+
+.contactform {
+    padding: 0 144px;
+}
+
+.contactform h1 {
+    margin: 30px 0;
+    color: #f10808;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.contactform h1:hover {
+    color: #7e7b7b;
+}
+
+form {
+    text-align: -moz-center;
+    font-size: 20px;
+    background: #7e7b7b;
+    color: white;
+    padding: 24px;
+    border-radius: 60px;
+}
+
+.form-control {
+    width: 300px;
+    height: 26px;
+    border-radius: 10px;
+}
+
+.btn {
+    width: 300px;
+    height: 26px;
+    border-radius: 10px;
+    color: #f10808;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #f10808;
+    color: white;
+}
+
+.mb-3 {
+    margin: 30px 0;
+}

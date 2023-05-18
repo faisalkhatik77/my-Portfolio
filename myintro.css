@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    background: #7e7b7b;
+    color: white;
+    width: 300px;
+    height: 100vh;
+}
+
+.sidebar nav {
+    padding: 30px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 20px;
+    padding: 25px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar nav li a:hover {
+    background: white;
+    color: #f10808;
+    padding: 3px 14px;
+    border-radius: 22px;
+    margin: 20px 3px;
+}
+
+.main {
+    padding: 5px 50px;
+}
+
+h1 {
+    padding: 10px 0px;
+    color: #f10808;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h1:hover {
+    color: #7e7b7b;
+}
+
+.main .services {
+    padding: 27px 50px;
+    margin: 27px 40px;
+    border-radius: 40px;
+    background: darkgray;
+}
+
+.skills {
+    color: white;
+}
+
+.main .services .skillP {
+    width: 350px;
+    background: red;
+    height: 19px;
+    margin: 10px 0;
+    border: 1px white solid;
+    border-radius: 10px;
+    padding: 0 12px;
+}
+
+.main .services .skillCP {
+    width: 470px;
+    background: #df7111;
+    height: 19px;
+    margin: 10px 0;
+    border: 1px white solid;
+    border-radius: 10px;
+    padding: 0 12px;
+}
+
+.main .services .skillC {
+    width: 400px;
+    background: green;
+    height: 19px;
+    margin: 10px 0;
+    border: 1px white solid;
+    border-radius: 10px;
+    padding: 0 12px;
+}
+
+.main .services .skillH {
+    width: 650px;
+    background: #555597;
+    height: 19px;
+    margin: 10px 0;
+    border: 1px white solid;
+    border-radius: 10px;
+    padding: 0 12px;
+}
+
+.main .services .skillCS {
+    width: 700px;
+    background: aqua;
+    height: 19px;
+    margin: 10px 0;
+    border: 1px white solid;
+    border-radius: 10px;
+    padding: 0 12px;
+}
+
+.main .services .skillJS {
+    width: 470px;
+    background: #e72f74;
+    height: 19px;
+    margin: 10px 0;
+    border: 1px white solid;
+    border-radius: 10px;
+    padding: 0 12px;
+}
+
+.main .services .skillJ {
+    width: 325px;
+    background: #27ddb2;
+    height: 19px;
+    margin: 10px 0;
+    border: 1px white solid;
+    border-radius: 10px;
+    padding: 0 12px;
+}
+
+.main .services .skillCH {
+    width: 210px;
+    background: #00ff70;
+    height: 19px;
+    margin: 10px 0;
+    border: 1px white solid;
+    border-radius: 10px;
+    padding: 0 12px;
+}
+
+.main .services .skillPHP {
+    width: 120px;
+    background: #7400ff;
+    height: 19px;
+    margin: 10px 0;
+    border: 1px white solid;
+    border-radius: 10px;
+    padding: 0 12px;
+}

@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    background: #7e7b7b;
+    color: white;
+    width: 250px;
+    height: 100vh;
+}
+
+.sidebar nav {
+    padding: 30px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 20px;
+    padding: 25px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar nav li a:hover {
+    background: white;
+    color: #f10808;
+    padding: 3px 14px;
+    border-radius: 22px;
+    margin: 20px 3px;
+}
+
+.main {
+    padding: 50px;
+}
+
+h1{
+    padding: 10px 0px;
+    color: #f10808;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h1:hover {
+    color: #7e7b7b;
+}
+
+.main .services{
+    padding: 40px 10px;
+    margin: 50px 10px;
+    border-radius: 40px;
+    background: darkgray;
+}
+
+
+
+
